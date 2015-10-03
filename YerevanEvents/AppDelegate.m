@@ -1,4 +1,4 @@
-//
+
 //  AppDelegate.m
 //  YerevanEvents
 //
@@ -6,6 +6,7 @@
 //  Copyright (c) 2015 Codegemz. All rights reserved.
 //
 
+@import GoogleMaps;
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
@@ -17,7 +18,31 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    UIColor *navColor = [UIColor colorWithRed:0.824 green:0 blue:0.004 alpha:1]; /*#d20001*/
+//    [[UINavigationBar appearance] setBackgroundColor:navColor];
+//    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+//
+//    UIImage *navbarImage = [UIImage imageNamed:@"nav_bg"];
+//    [[UINavigationBar appearance] setBackgroundImage: navbarImage forBarMetrics:UIBarMetricsDefault];
+   [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    // Gmaps API key
+    [GMSServices provideAPIKey:@"AIzaSyDWxQq5f6WznrJZE88LM1GVXxvG30Fcmbc"];
+
+    
     return YES;
+}
+
+- (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification
+{
+    NSLog(@"alert!'");
+    UIApplicationState state = [application applicationState];
+    if (state == UIApplicationStateActive) {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@""
+                                                        message:notification.alertBody
+                                                       delegate:self cancelButtonTitle:@"OK"
+                                              otherButtonTitles:nil];
+        [alert show];
+    }    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

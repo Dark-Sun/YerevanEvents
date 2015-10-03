@@ -10,11 +10,32 @@
 		0802242B1B99177C003D56DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0802242A1B99177C003D56DA /* main.m */; };
 		0802242E1B99177C003D56DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0802242D1B99177C003D56DA /* AppDelegate.m */; };
 		080224311B99177C003D56DA /* YerevanEvents.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0802242F1B99177C003D56DA /* YerevanEvents.xcdatamodeld */; };
-		080224341B99177C003D56DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 080224331B99177C003D56DA /* ViewController.m */; };
-		080224371B99177C003D56DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080224351B99177C003D56DA /* Main.storyboard */; };
 		080224391B99177C003D56DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080224381B99177C003D56DA /* Images.xcassets */; };
-		0802243C1B99177C003D56DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0802243A1B99177C003D56DA /* LaunchScreen.xib */; };
 		080224481B99177D003D56DA /* YerevanEventsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 080224471B99177D003D56DA /* YerevanEventsTests.m */; };
+		080224531B9918C9003D56DA /* VenueCategoriesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 080224521B9918C9003D56DA /* VenueCategoriesController.m */; };
+		08048E621BBAA7680005613D /* NearbyVenuesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08048E611BBAA7680005613D /* NearbyVenuesController.m */; settings = {ASSET_TAGS = (); }; };
+		0823DC801BBEFEC80032026D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 0823DC7F1BBEFEC80032026D /* User.m */; settings = {ASSET_TAGS = (); }; };
+		0823DC831BBF18220032026D /* UserCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0823DC821BBF18220032026D /* UserCategory.m */; settings = {ASSET_TAGS = (); }; };
+		0829E8CF1BB1E4FF00F8FF6D /* VenueCategoriesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0829E8CE1BB1E4FF00F8FF6D /* VenueCategoriesTableViewCell.m */; };
+		0829E8D21BB1E7FF00F8FF6D /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0829E8D11BB1E7FF00F8FF6D /* Venue.m */; };
+		0829E8D51BB1E93300F8FF6D /* VenuesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0829E8D41BB1E93300F8FF6D /* VenuesController.m */; };
+		082E534F1BB185D900296564 /* SidebarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 082E534E1BB185D900296564 /* SidebarController.m */; };
+		082E53521BB18E0700296564 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 082E53511BB18E0700296564 /* MainViewController.m */; };
+		083098831BB1DDB100503053 /* VenueCategoriesButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 083098821BB1DDB100503053 /* VenueCategoriesButton.m */; };
+		084DC1981BB2281100594CFF /* VenueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 084DC1971BB2281100594CFF /* VenueViewController.m */; };
+		0852A76E1BB4062800EB616C /* EventsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0852A76D1BB4062800EB616C /* EventsController.m */; };
+		0852A7711BB40AA700EB616C /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 0852A7701BB40AA700EB616C /* Event.m */; };
+		0852A7741BB42E4C00EB616C /* EventController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0852A7731BB42E4C00EB616C /* EventController.m */; };
+		0856F5CA1BBB496E00D0AC9C /* VenueLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0856F5C91BBB496E00D0AC9C /* VenueLocationController.m */; settings = {ASSET_TAGS = (); }; };
+		085A12A91BBEFD4800E92A28 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 085A12A81BBEFD4800E92A28 /* LoginController.m */; settings = {ASSET_TAGS = (); }; };
+		0898C5AD1BA7746C00E5DF4E /* Sync.m in Sources */ = {isa = PBXBuildFile; fileRef = 0898C5AC1BA7746C00E5DF4E /* Sync.m */; };
+		0899A3061B9A4EA9001FA553 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0899A3051B9A4EA9001FA553 /* Podfile */; };
+		0899A3091B9A50FA001FA553 /* VenueCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0899A3081B9A50FA001FA553 /* VenueCategory.m */; };
+		08EBBCCB1BBC06210059D575 /* VenuePhotosController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EBBCCA1BBC06210059D575 /* VenuePhotosController.m */; settings = {ASSET_TAGS = (); }; };
+		08EBBCCE1BBC09D80059D575 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08EBBCCC1BBC09D80059D575 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		08EBBCD11BBC11650059D575 /* VenuePhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EBBCD01BBC11650059D575 /* VenuePhoto.m */; settings = {ASSET_TAGS = (); }; };
+		08FAE9561BBEC6AF00878BEF /* RegistrationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FAE9551BBEC6AF00878BEF /* RegistrationController.m */; settings = {ASSET_TAGS = (); }; };
+		B6FDF664EFAA816AB1125E37 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB269016F0AA524006ABB6F /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +55,58 @@
 		0802242C1B99177C003D56DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0802242D1B99177C003D56DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		080224301B99177C003D56DA /* YerevanEvents.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YerevanEvents.xcdatamodel; sourceTree = "<group>"; };
-		080224321B99177C003D56DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		080224331B99177C003D56DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		080224361B99177C003D56DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		080224381B99177C003D56DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0802243B1B99177C003D56DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		080224411B99177D003D56DA /* YerevanEventsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YerevanEventsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		080224461B99177D003D56DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		080224471B99177D003D56DA /* YerevanEventsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YerevanEventsTests.m; sourceTree = "<group>"; };
+		080224511B9918C9003D56DA /* VenueCategoriesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenueCategoriesController.h; sourceTree = "<group>"; };
+		080224521B9918C9003D56DA /* VenueCategoriesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenueCategoriesController.m; sourceTree = "<group>"; };
+		08048E601BBAA7680005613D /* NearbyVenuesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NearbyVenuesController.h; path = ../NearbyVenuesController.h; sourceTree = "<group>"; };
+		08048E611BBAA7680005613D /* NearbyVenuesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NearbyVenuesController.m; path = ../NearbyVenuesController.m; sourceTree = "<group>"; };
+		0823DC7E1BBEFEC80032026D /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		0823DC7F1BBEFEC80032026D /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		0823DC811BBF18220032026D /* UserCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCategory.h; sourceTree = "<group>"; };
+		0823DC821BBF18220032026D /* UserCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCategory.m; sourceTree = "<group>"; };
+		0829E8CD1BB1E4FF00F8FF6D /* VenueCategoriesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenueCategoriesTableViewCell.h; sourceTree = "<group>"; };
+		0829E8CE1BB1E4FF00F8FF6D /* VenueCategoriesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenueCategoriesTableViewCell.m; sourceTree = "<group>"; };
+		0829E8D01BB1E7FF00F8FF6D /* Venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Venue.h; path = Models/Venue.h; sourceTree = "<group>"; };
+		0829E8D11BB1E7FF00F8FF6D /* Venue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Venue.m; path = Models/Venue.m; sourceTree = "<group>"; };
+		0829E8D31BB1E93300F8FF6D /* VenuesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenuesController.h; sourceTree = "<group>"; };
+		0829E8D41BB1E93300F8FF6D /* VenuesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenuesController.m; sourceTree = "<group>"; };
+		082E534D1BB185D900296564 /* SidebarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarController.h; sourceTree = "<group>"; };
+		082E534E1BB185D900296564 /* SidebarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarController.m; sourceTree = "<group>"; };
+		082E53501BB18E0700296564 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		082E53511BB18E0700296564 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		083098811BB1DDB100503053 /* VenueCategoriesButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenueCategoriesButton.h; sourceTree = "<group>"; };
+		083098821BB1DDB100503053 /* VenueCategoriesButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenueCategoriesButton.m; sourceTree = "<group>"; };
+		084DC1961BB2281100594CFF /* VenueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenueViewController.h; sourceTree = "<group>"; };
+		084DC1971BB2281100594CFF /* VenueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenueViewController.m; sourceTree = "<group>"; };
+		0852A76C1BB4062800EB616C /* EventsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsController.h; sourceTree = "<group>"; };
+		0852A76D1BB4062800EB616C /* EventsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsController.m; sourceTree = "<group>"; };
+		0852A76F1BB40AA700EB616C /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		0852A7701BB40AA700EB616C /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		0852A7721BB42E4C00EB616C /* EventController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventController.h; sourceTree = "<group>"; };
+		0852A7731BB42E4C00EB616C /* EventController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventController.m; sourceTree = "<group>"; };
+		0856F5C81BBB496E00D0AC9C /* VenueLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenueLocationController.h; sourceTree = "<group>"; };
+		0856F5C91BBB496E00D0AC9C /* VenueLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenueLocationController.m; sourceTree = "<group>"; };
+		085A12A71BBEFD4800E92A28 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginController.h; path = ../LoginController.h; sourceTree = "<group>"; };
+		085A12A81BBEFD4800E92A28 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginController.m; path = ../LoginController.m; sourceTree = "<group>"; };
+		0898C5AA1BA7738600E5DF4E /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		0898C5AB1BA7746C00E5DF4E /* Sync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sync.h; sourceTree = "<group>"; };
+		0898C5AC1BA7746C00E5DF4E /* Sync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sync.m; sourceTree = "<group>"; };
+		0899A3051B9A4EA9001FA553 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0899A3071B9A50FA001FA553 /* VenueCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VenueCategory.h; path = Models/VenueCategory.h; sourceTree = "<group>"; };
+		0899A3081B9A50FA001FA553 /* VenueCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VenueCategory.m; path = Models/VenueCategory.m; sourceTree = "<group>"; };
+		08EBBCC91BBC06210059D575 /* VenuePhotosController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenuePhotosController.h; sourceTree = "<group>"; };
+		08EBBCCA1BBC06210059D575 /* VenuePhotosController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenuePhotosController.m; sourceTree = "<group>"; };
+		08EBBCCD1BBC09D80059D575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08EBBCCF1BBC11650059D575 /* VenuePhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenuePhoto.h; sourceTree = "<group>"; };
+		08EBBCD01BBC11650059D575 /* VenuePhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenuePhoto.m; sourceTree = "<group>"; };
+		08FAE9541BBEC6AF00878BEF /* RegistrationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationController.h; sourceTree = "<group>"; };
+		08FAE9551BBEC6AF00878BEF /* RegistrationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationController.m; sourceTree = "<group>"; };
+		2DB269016F0AA524006ABB6F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4674D7B2140F2F1BE7FC1E17 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CA84477609A1D1B26B9665E5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6FDF664EFAA816AB1125E37 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,9 +131,12 @@
 		0802241C1B99177C003D56DA = {
 			isa = PBXGroup;
 			children = (
+				0899A3051B9A4EA9001FA553 /* Podfile */,
 				080224271B99177C003D56DA /* YerevanEvents */,
 				080224441B99177D003D56DA /* YerevanEventsTests */,
 				080224261B99177C003D56DA /* Products */,
+				368393D85CC13A2EC206EB0B /* Pods */,
+				21B15820BE1C8F0DF375D9A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,13 +152,13 @@
 		080224271B99177C003D56DA /* YerevanEvents */ = {
 			isa = PBXGroup;
 			children = (
+				0898C5A81BA772CC00E5DF4E /* Helpers */,
+				0898C5A71BA7726B00E5DF4E /* Controllers */,
+				0899A30A1B9A5101001FA553 /* Models */,
 				0802242C1B99177C003D56DA /* AppDelegate.h */,
 				0802242D1B99177C003D56DA /* AppDelegate.m */,
-				080224321B99177C003D56DA /* ViewController.h */,
-				080224331B99177C003D56DA /* ViewController.m */,
-				080224351B99177C003D56DA /* Main.storyboard */,
+				08EBBCCC1BBC09D80059D575 /* Main.storyboard */,
 				080224381B99177C003D56DA /* Images.xcassets */,
-				0802243A1B99177C003D56DA /* LaunchScreen.xib */,
 				0802242F1B99177C003D56DA /* YerevanEvents.xcdatamodeld */,
 				080224281B99177C003D56DA /* Supporting Files */,
 			);
@@ -122,6 +191,87 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0898C5A71BA7726B00E5DF4E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				08048E601BBAA7680005613D /* NearbyVenuesController.h */,
+				08048E611BBAA7680005613D /* NearbyVenuesController.m */,
+				085A12A71BBEFD4800E92A28 /* LoginController.h */,
+				085A12A81BBEFD4800E92A28 /* LoginController.m */,
+				082E534D1BB185D900296564 /* SidebarController.h */,
+				082E534E1BB185D900296564 /* SidebarController.m */,
+				084DC1961BB2281100594CFF /* VenueViewController.h */,
+				084DC1971BB2281100594CFF /* VenueViewController.m */,
+				08FAE9541BBEC6AF00878BEF /* RegistrationController.h */,
+				08FAE9551BBEC6AF00878BEF /* RegistrationController.m */,
+				083098811BB1DDB100503053 /* VenueCategoriesButton.h */,
+				083098821BB1DDB100503053 /* VenueCategoriesButton.m */,
+				080224511B9918C9003D56DA /* VenueCategoriesController.h */,
+				080224521B9918C9003D56DA /* VenueCategoriesController.m */,
+				082E53501BB18E0700296564 /* MainViewController.h */,
+				082E53511BB18E0700296564 /* MainViewController.m */,
+				0829E8D31BB1E93300F8FF6D /* VenuesController.h */,
+				0829E8D41BB1E93300F8FF6D /* VenuesController.m */,
+				0829E8CD1BB1E4FF00F8FF6D /* VenueCategoriesTableViewCell.h */,
+				0829E8CE1BB1E4FF00F8FF6D /* VenueCategoriesTableViewCell.m */,
+				0852A76C1BB4062800EB616C /* EventsController.h */,
+				0852A76D1BB4062800EB616C /* EventsController.m */,
+				0852A7721BB42E4C00EB616C /* EventController.h */,
+				0852A7731BB42E4C00EB616C /* EventController.m */,
+				0856F5C81BBB496E00D0AC9C /* VenueLocationController.h */,
+				0856F5C91BBB496E00D0AC9C /* VenueLocationController.m */,
+				08EBBCC91BBC06210059D575 /* VenuePhotosController.h */,
+				08EBBCCA1BBC06210059D575 /* VenuePhotosController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0898C5A81BA772CC00E5DF4E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0898C5AA1BA7738600E5DF4E /* Config.h */,
+				0898C5AB1BA7746C00E5DF4E /* Sync.h */,
+				0898C5AC1BA7746C00E5DF4E /* Sync.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		0899A30A1B9A5101001FA553 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0899A3071B9A50FA001FA553 /* VenueCategory.h */,
+				0899A3081B9A50FA001FA553 /* VenueCategory.m */,
+				0829E8D01BB1E7FF00F8FF6D /* Venue.h */,
+				0829E8D11BB1E7FF00F8FF6D /* Venue.m */,
+				0852A76F1BB40AA700EB616C /* Event.h */,
+				0852A7701BB40AA700EB616C /* Event.m */,
+				08EBBCCF1BBC11650059D575 /* VenuePhoto.h */,
+				08EBBCD01BBC11650059D575 /* VenuePhoto.m */,
+				0823DC7E1BBEFEC80032026D /* User.h */,
+				0823DC7F1BBEFEC80032026D /* User.m */,
+				0823DC811BBF18220032026D /* UserCategory.h */,
+				0823DC821BBF18220032026D /* UserCategory.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		21B15820BE1C8F0DF375D9A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DB269016F0AA524006ABB6F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		368393D85CC13A2EC206EB0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA84477609A1D1B26B9665E5 /* Pods.debug.xcconfig */,
+				4674D7B2140F2F1BE7FC1E17 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +279,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0802244B1B99177D003D56DA /* Build configuration list for PBXNativeTarget "YerevanEvents" */;
 			buildPhases = (
+				058C9DACD771C15382BFF049 /* Check Pods Manifest.lock */,
 				080224211B99177C003D56DA /* Sources */,
 				080224221B99177C003D56DA /* Frameworks */,
 				080224231B99177C003D56DA /* Resources */,
+				8B2937C81588B236586B69C5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,8 +354,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				080224371B99177C003D56DA /* Main.storyboard in Resources */,
-				0802243C1B99177C003D56DA /* LaunchScreen.xib in Resources */,
+				08EBBCCE1BBC09D80059D575 /* Main.storyboard in Resources */,
+				0899A3061B9A4EA9001FA553 /* Podfile in Resources */,
 				080224391B99177C003D56DA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,15 +369,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		058C9DACD771C15382BFF049 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B2937C81588B236586B69C5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		080224211B99177C003D56DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08EBBCD11BBC11650059D575 /* VenuePhoto.m in Sources */,
+				085A12A91BBEFD4800E92A28 /* LoginController.m in Sources */,
+				0829E8D21BB1E7FF00F8FF6D /* Venue.m in Sources */,
+				0898C5AD1BA7746C00E5DF4E /* Sync.m in Sources */,
+				0852A7741BB42E4C00EB616C /* EventController.m in Sources */,
 				0802242E1B99177C003D56DA /* AppDelegate.m in Sources */,
+				084DC1981BB2281100594CFF /* VenueViewController.m in Sources */,
+				08EBBCCB1BBC06210059D575 /* VenuePhotosController.m in Sources */,
+				083098831BB1DDB100503053 /* VenueCategoriesButton.m in Sources */,
+				082E534F1BB185D900296564 /* SidebarController.m in Sources */,
+				0852A76E1BB4062800EB616C /* EventsController.m in Sources */,
+				0856F5CA1BBB496E00D0AC9C /* VenueLocationController.m in Sources */,
+				0823DC801BBEFEC80032026D /* User.m in Sources */,
+				0829E8D51BB1E93300F8FF6D /* VenuesController.m in Sources */,
+				0823DC831BBF18220032026D /* UserCategory.m in Sources */,
+				08048E621BBAA7680005613D /* NearbyVenuesController.m in Sources */,
+				08FAE9561BBEC6AF00878BEF /* RegistrationController.m in Sources */,
+				082E53521BB18E0700296564 /* MainViewController.m in Sources */,
+				0829E8CF1BB1E4FF00F8FF6D /* VenueCategoriesTableViewCell.m in Sources */,
 				0802242B1B99177C003D56DA /* main.m in Sources */,
-				080224341B99177C003D56DA /* ViewController.m in Sources */,
+				0899A3091B9A50FA001FA553 /* VenueCategory.m in Sources */,
+				0852A7711BB40AA700EB616C /* Event.m in Sources */,
 				080224311B99177C003D56DA /* YerevanEvents.xcdatamodeld in Sources */,
+				080224531B9918C9003D56DA /* VenueCategoriesController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,20 +453,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		080224351B99177C003D56DA /* Main.storyboard */ = {
+		08EBBCCC1BBC09D80059D575 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				080224361B99177C003D56DA /* Base */,
+				08EBBCCD1BBC09D80059D575 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0802243A1B99177C003D56DA /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0802243B1B99177C003D56DA /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -351,21 +548,31 @@
 		};
 		0802244C1B99177D003D56DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA84477609A1D1B26B9665E5 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = YerevanEvents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		0802244D1B99177D003D56DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4674D7B2140F2F1BE7FC1E17 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = YerevanEvents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -422,6 +629,7 @@
 				0802244D1B99177D003D56DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0802244E1B99177D003D56DA /* Build configuration list for PBXNativeTarget "YerevanEventsTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +638,7 @@
 				080224501B99177D003D56DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
